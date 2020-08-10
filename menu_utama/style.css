@@ -1,0 +1,16 @@
+body{
+	background-color: #A9A9A9;
+}
+
+div{
+	width: 900px;
+	height: 500px;
+	margin: 70px auto;
+	background-image: url(css/bg.png);
+	text-align: center;
+	
+}
+
+a{
+	padding-top: 250px; 
+}
