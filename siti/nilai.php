@@ -36,7 +36,7 @@ if(!isset($_SESSION['username'])) {
           <th scope="col">NIM</th>
           <th scope="col">Nama Vendor</th>
           <th scope="col">Nilai</th>
-          <th scope="col">Tambah</th>
+          <th scope="col">Aksi</th>
         </tr>
       </thead>
       

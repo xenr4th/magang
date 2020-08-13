@@ -62,12 +62,3 @@ if(!isset($_SESSION['username'])) {
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
-
-<!-- <title>Halaman Sukses Login</title>
-<div align='center'>
-   Selamat Datang, <b><?php echo $username;?></b><br>
-	<a href="../judul/index.php">Buat Judul</a><br>
-	<a href="../siti/nilai.php">Penilaian</a><br>
-	<a href="../laporan/laporan.php">Laporan</a><br>
-   <a href="logout.php"><b>Logout</b></a>
-</div> -->

@@ -36,7 +36,7 @@ if(!isset($_SESSION['username'])) {
             <form>
               <div class="form-group">
                 <label>NIM</label>
-                <input type="text" class="form-control" name="nim" value="<?php echo $username;?>"
+                <input type="text" class="form-control" name="nim" value="<?php echo $username;?>">
               </div>
               <div class="form-group ">
                 <label for="nim" class="mt-3">ID Judul</label>
@@ -57,6 +57,8 @@ if(!isset($_SESSION['username'])) {
             </form>
           </div>
          </div>
-       </div>
-     </section>
+        </div>
+      </section>
     </form>
+  </body>
+</html>

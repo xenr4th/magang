@@ -7,7 +7,6 @@ if(!isset($_SESSION['username'])) {
    $username = $_SESSION['username']; 
 }
 ?>
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,7 +16,6 @@ if(!isset($_SESSION['username'])) {
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <title>Daftar User</title>
   </head>
   <body>
@@ -26,7 +24,7 @@ if(!isset($_SESSION['username'])) {
         function goBack() {
             window.history.back();
         }
-</script>
+    </script>
     <form action="simpan.php" method="POST">
      <section>
        <div class="container">
@@ -53,17 +51,5 @@ if(!isset($_SESSION['username'])) {
        </div>
      </section>
     </form>
-
-<!-- <title>Data Judul</title>
-
-<form action="simpan.php" method="POST">
-  
-    <input type = "text" name="id_judul" style="display: none;">
-    <label>Nama Vendor</label><br>
-        <input type = "text"  name="nama_vendor" value="<?php echo $username;?>" readonly="readonly"><br>
-    <label>Judul</label><br>
-        <input type = "text" name="judul"><br><br>
-    <input type="submit" value="simpan">
-    <a href="../login_vendor/index.php">Kembali ke Menu</a>
-
-</form> -->
+  </body>
+</html>
